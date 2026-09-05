@@ -78,7 +78,11 @@ This creates a grey box with padding around code blocks making them standout fro
 
 ### Hosting
 
-TODO
+GitHub pages issues.
+
+Vercel. Easy to deploy, does it automatically when a repo is connected. Create and account and you're off. Easily add a custom domain. Can add extra complexity when necessary, CI checks,
+
+Workflows.
 
 ### Domain
 

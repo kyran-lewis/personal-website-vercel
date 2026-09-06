@@ -40,12 +40,12 @@ function NavBar() {
             </ul>
           </div>
         </div>
-        <div className="absolute w-full overflow-hidden z-20">
+        <div
+          className={` absolute w-full overflow-hidden z-20 ${openMenu ? "pointer-events-auto" : "pointer-events-none"}`}
+        >
           <div
             className={`transition-all duration-400 ease-out origin-top ${
-              openMenu
-                ? "translate-y-0"
-                : "-translate-y-full pointer-events-none"
+              openMenu ? "translate-y-0" : "-translate-y-full"
             } bg-amber-100`}
           >
             <ul className="flex-col items-center gap-4">

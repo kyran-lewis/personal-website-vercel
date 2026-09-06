@@ -38,26 +38,25 @@ function HomePage() {
                   title="QA-Engineered Core"
                   description="I have a year of experience working as a quality assurance
                     engineer which has instilled a test driven mindset into me.
-                    Quality, predictability and reliability are the core values
-                    that guide my work."
+                    Quality, predictability and reliability are at the core of my work."
                 />
 
                 {/* Card 2: Tech Stack Versatility */}
                 <SmallCard
                   icon="🗄️"
                   title="Full-Stack Capability"
-                  description="Seamlessly bridging frontend reactivity with secure backend
-                    architecture. Experienced in React, Node, PHP, and
-                    relational database design."
+                  description="Experienced in writing secure and robust backends
+                    API as well as dynamic and modular frontends. Experienced in React, Node, PHP and
+                    relational database design (MySQL, SQL Server)."
                 />
 
                 {/* Card 3: Academic Background */}
                 <SmallCard
                   icon="🎓"
-                  title="First-Class Foundation"
+                  title="First-Class Graduate"
                   description="Computer Science graduate from the University of Sheffield
                     with First-Class Honours. Strong understanding of
-                    fundamentals applied to real-world products."
+                    computer science fundamentals applied to real world projects."
                 />
               </div>
             </div>

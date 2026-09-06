@@ -41,24 +41,25 @@ function ExperiencePage() {
             <div className="space-y-10">
               <SubSection
                 title=" Accredify Pro / Quality Management System"
-                summary="Engineered robust enterprise subsystems focusing heavily on
-                    interactive dynamic form building frameworks, asset tracking
-                    documentation pipelines, and real-time worker compliance
+                summary="Engineered robust company systems focusing heavily on
+                    interactive form and document building frameworks, asset tracking and
+                    documentation, and ISO compliant quality management
                     systems."
+                focus="Maintaining and Improving ISO Compliance For Internal Operations"
               >
                 <h4 className="text-md font-black text-gray-900 mb-2">
                   Achievements:
                 </h4>
                 <Spotlight
                   title="TypeScript Migration"
-                  description="Orchestrated an incremental scale codebase migration from
-                      legacy JavaScript architecture over to strict TypeScript.
-                      Refactored high-traffic UI components to capture layout
-                      exceptions at compile-time and drastically cut production
+                  description="Initiated incremental scale codebase migration from
+                       JavaScript over to strict TypeScript.
+                      Refactored core UI components to capture layout
+                      exceptions at compile time and drastically cut production
                       errors."
                 />
                 <Spotlight
-                  title="Schema-driven UI Frameworks"
+                  title="Schema-driven UI"
                   description="Architected custom client-side generation layers parsing
                       recursive JSON payloads down into complex data-validation
                       capture controls. Empowered external teams to dynamically
@@ -66,31 +67,27 @@ function ExperiencePage() {
                       logic shifts."
                 />
                 <Spotlight
-                  title="Vitest, Jest & Cypress E2E Testing"
-                  description="Established modern test suites pairing isolated unit tests
-                      via Vitest/Jest with end-to-end integration journeys using
-                      Cypress. Protected regression lines for vital application
-                      areas including multi-step data wizard components."
+                  title="Vitest, Jest and Cypress E2E Testing"
+                  description="Established and implemented modern test suites pairing isolated unit tests
+                      (Vitest/Jest) with end-to-end tests (Cypress). Protected regression for vital application
+                      areas."
                 />
               </SubSection>
 
               {/* Receipts Tracker Section */}
               <SubSection
                 title="Receipt Tracking System"
-                summary="Developed an independent utility built straight upon native
-                    browser engines with no modern framework layer dependencies.
+                summary="Developed an independent utility built with no modern framework dependencies.
                     Designed structural components parsing financial tracking
                     fields, raw event listeners, and local state management layers
                     to maximize performance."
-                focus="Vanilla Software Engineering / Performance Architecture"
+                focus="Vanilla Software Engineering"
               />
               <SubSection
                 title="Meeting Booking System"
                 summary="Engineered an enterprise booking matrix module centered around
-                  layout availability and calendar scheduling constraints.
-                  Solved time zone conversion disparities and optimized render
-                  lifecycle hooks inside custom React Big Calendar integrations."
-                focus="Complex Event Hooks / State Synchronization"
+                  layout availability and calendar scheduling constraints."
+                focus="Date Constraints and Clear UI Layout"
               />
             </div>
           </ExperienceEntry>
@@ -104,10 +101,9 @@ function ExperiencePage() {
           >
             <SubSection
               title="Docs, Forms, Hub (DFH)"
-              summary="Contributed to high-availability corporate core platforms.
-                Managed rigorous functional layout diagnostics, accessibility
-                reviews, network telemetry evaluations, and infrastructure loads
-                to guarantee system operation under peak application strain."
+              summary="Contributed to flagship product suite for managing and distributing essential documents, forms and alerts. 
+              Successfully completed major product releases with high levels of customer satisfaction.
+              "
             >
               <TimelineEntry number="2.17.0" category="UI Update">
                 <p className="text-sm text-gray-600 leading-relaxed">
@@ -180,10 +176,11 @@ function ExperiencePage() {
             logoAlt="University of Sheffield Logo"
             institution="University of Sheffield"
             degree="BSc Computer Science With Year In Industry"
-            summary="                Gained deep theoretical knowledge across modern computation
-                matrices, compiler designs, advanced algorithms, database
-                methodologies, and software patterns while matching real-world
-                demands via professional placement pipelines."
+            summary="Gained knowledge of fundamental computer science principles like algorithms and 
+            data structures, linear algebra, statistics and probability, boolean logic and more. Worked collaboratively
+            with other students simulating real software engineering environments from gathering requirements with clients to
+            launching and demoing a software product. Focused on more specialist areas like cyber security, 3D computer graphics and
+            functional programming."
             grade="First-Class Honours"
           />
         </div>

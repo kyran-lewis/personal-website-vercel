@@ -19,8 +19,7 @@ function Hero() {
             {" "}
             test driven mindset
           </span>
-          . I build robust web applications where quality and scalability aren't
-          afterthoughts.
+          .
         </p>
 
         <div className="mt-4 flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -11,7 +11,7 @@ export interface BlogPostData {
   category: "Testing" | "Frontend" | "Backend" | "DevOps";
 }
 
-export const BLOG_POSTS_NEW = [post1, post2];
+export const BLOG_POSTS_NEW = [post1];
 
 export const PARSED_BLOG_POSTS = BLOG_POSTS_NEW.map((rawPost) => {
   const { attributes, body } = fm<BlogPostData>(rawPost);
